@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: #02428c;
+    margin: 100px auto;
+    
+}
+/* 一级导航 */
+.topnav-menu{
+    /* height: 30px; */
+    width: auto;
+    margin-left:180px;
+    margin-top: 200px;
+    list-style:none;
+}
+.topnav-content {
+    list-style: none;
+    width: auto;
+    height: 30px;
+    background-color: #02428c;
+    /* float: left; */
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.topnav-link {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "宋体";
+    color: white;
+    text-decoration: none;
+   
+}
+.topnav-content:hover {
+background-color: #0657b3;
+}
+/* 二级导航 */
+.subnav{
+    width: auto;
+    height: 60px;
+    list-style:none;
+    position:absolute;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    
+}
+.subnav-content{
+    list-style: none;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0657b3;
+    float: left;
+    padding-right: 12px;
+    padding-left: 12px;
+    display: none;
+}
+.subnav-link{
+    font-size: 13px;
+    color:white;
+    text-decoration: none;
+    font-family:"宋体";
+    font-weight: lighter;
+    
+    /* display: flex; 
+    flex-direction: row; */
+}
+.topnav-content:hover .subnav-content{
+    display:block;
+    /* text-decoration:underline; */
+}
+.subnav-link:hover{
+    text-decoration: underline;
+}
