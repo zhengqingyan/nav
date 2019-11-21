@@ -10,7 +10,7 @@
     margin: 100px auto;
     
 }
-/* 一级导航 */
+/* 导航条 */
 .topnav-menu{
     /* height: 30px; */
     width: auto;
@@ -18,6 +18,7 @@
     margin-top: 200px;
     list-style:none;
 }
+/* 一级导航 */
 .topnav-content {
     list-style: none;
     width: auto;
@@ -32,7 +33,7 @@
 }
 .topnav-link {
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: "宋体";
     color: white;
     text-decoration: none;
@@ -43,15 +44,16 @@ background-color: #0657b3;
 }
 /* 二级导航 */
 .subnav{
-    width: auto;
-    height: 60px;
+    /* width: auto;
+    height: 50px; */
+    /* line-height: 50px;  */
     list-style:none;
-    position:absolute;
+    position: absolute;
     display: block;
-    color: #fff;
-    text-decoration: none;
-    line-height: 60px;
-    
+    color:#fff;
+    text-decoration: none;   
+    float: left;
+    top:250px;
 }
 .subnav-content{
     list-style: none;
@@ -60,16 +62,16 @@ background-color: #0657b3;
     line-height: 40px;
     background-color: #0657b3;
     float: left;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding:12px 12px;
     display: none;
+
 }
 .subnav-link{
     font-size: 13px;
     color:white;
     text-decoration: none;
     font-family:"宋体";
-    font-weight: lighter;
+    font-weight: 300;
     
     /* display: flex; 
     flex-direction: row; */
